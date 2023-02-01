@@ -1,0 +1,44 @@
+print("1.addition")
+print("2.subtraction")
+print("3.multiplication")
+print("4.division")
+print("5.power")
+while True:
+    num1=float(input("enter the first number:"))
+    num2=float(input("enter the second number:"))
+    choice=input("enter your choice(1,2,3,4,5):\n")
+    if(choice == '1'):
+        print("addition is {0}".format(num1+num2))
+    elif(choice == '2'):
+        print("subtraction is :",num1-num2)
+    elif(choice == '3'):
+        print("multiplication is :",num1*num2)
+    elif(choice == '4'):
+        print("division is :",num1/num2)
+    elif(choice == '5'):
+        print("power is :",num1**num2)
+    else:
+        print("invalid input. try using '1','2','3','4','5'")
+    next_calculation=input("continue calculation?(yes/no):")
+    if next_calculation=="no" :
+        break
+    elif next_calculation=="yes" :
+        continue
+    else:
+        print("invalid input")
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
